@@ -23,7 +23,7 @@ function App() {
   ]);
 
   const changeColor = (boxSelected) => {
-    const newBoxState = JSON.parse(JSON.stringify(boxes));
+    const newBoxState = JSON.parse(JSON.stringify(boxes)); //Helper to create another independent copy
     for (let box of newBoxState) {
       if (box.id !== boxSelected.id) {
         if (box.state === true) {
