@@ -1,4 +1,4 @@
-# Intership test (CARGOFUL)
+# Internship test (CARGOFUL)
 ## Part I (Programming)
 
 Run the following commands:
